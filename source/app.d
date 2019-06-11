@@ -1,0 +1,39 @@
+import std.stdio;
+import owlchain.consensus.tests.quorumSetTest;
+import owlchain.consensus.tests.bcpUnitTests;
+import owlchain.consensus.tests.arrayTest;
+import owlchain.consensus.tests.bcpTests;
+import owlchain.xdr.tests.streamTest;
+import std.experimental.logger;
+import std.system;
+
+void main()
+{
+    /*
+    QuorumSetTest quorumSetTest;
+    quorumSetTest = new QuorumSetTest();
+    quorumSetTest.prepare();
+	quorumSetTest.test();
+
+    ArrayTest arrayTest;
+    arrayTest = new ArrayTest();
+    arrayTest.prepare();
+	arrayTest.test();
+
+    CPUnitTest cpUnitTest;
+    cpUnitTest = new CPUnitTest();
+    cpUnitTest.prepare();
+	cpUnitTest.test();
+    */
+
+    ConsensusProtocolTest cpTest;
+    cpTest = new ConsensusProtocolTest();
+    cpTest.prepare();
+	cpTest.test();
+
+//    StreamTest streamTest;
+//    streamTest = new StreamTest();
+//    streamTest.prepare();
+//    streamTest.test();
+
+}
