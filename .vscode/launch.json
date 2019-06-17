@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceFolder}/.dub/build/application-debug-posix.osx-x86_64-ldc_2085-6CB2C2DB193AD51EA063E51D1F8FB10D/stellar",
+            "args": ["generate"],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
